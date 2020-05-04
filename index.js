@@ -253,7 +253,7 @@ function removeArtist(artists, id) {
 
 function lotsOfArt(artists){
 
-  et moreThan100 = [];
+  let moreThan100 = [];
  
   for (let i = 0; i < artists.length; i++){   
   if (artists[i].paintings >= 100) {
